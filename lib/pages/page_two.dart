@@ -13,7 +13,7 @@ class PageTwo extends StatelessWidget {
         color: Colors.greenAccent,
         child: Center(
           child: ElevatedButton(
-            onPressed: () => Get.toNamed(AppRoutes.pagethree),
+            onPressed: () => Get.toNamed(AppRoutes.pageThree),
             child: const Text('Go to Page Three'),
           ),
         ),
